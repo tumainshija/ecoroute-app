@@ -1,0 +1,30 @@
+{
+    "name": "ecoroute-app",
+    "version": "1.0.0",
+    "description": "EcoRoute - Plan eco-friendly travel routes",
+    "scripts": {
+        "start": "npm run start:backend & npm run start:frontend",
+        "start:frontend": "cd frontend && npm run start",
+        "start:backend": "cd backend && npm run start",
+        "dev": "npm run dev:backend & npm run dev:frontend",
+        "dev:frontend": "cd frontend && npm run dev",
+        "dev:backend": "cd backend && npm run dev",
+        "build": "npm run build:frontend",
+        "build:frontend": "cd frontend && npm run build",
+        "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+    },
+    "keywords": [
+        "eco-friendly",
+        "routes",
+        "travel",
+        "sustainability"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^8.2.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
