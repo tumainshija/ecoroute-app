@@ -33,6 +33,23 @@ interface ForumTopic {
   views: number;
 }
 
+// Generate static paths for all possible topic IDs
+export async function generateStaticParams() {
+  // Return all the possible topic IDs that this page should be pre-rendered for
+  return [
+    { topicId: 'sustainability-topic-1' },
+    { topicId: 'travel-experiences-topic-1' },
+    { topicId: 'local-cultures-topic-1' },
+    { topicId: 'route-planning-topic-1' },
+    { topicId: 'ecoroute-feedback-topic-1' },
+    { topicId: 'sustainability-zero-waste' },
+    { topicId: 'travel-experiences-europe-by-train' },
+    { topicId: 'local-cultures-indigenous-support' },
+    { topicId: 'route-planning-sea-lowcarbon' },
+    { topicId: 'ecoroute-feedback-carpooling' }
+  ];
+}
+
 export default function TopicPage() {
   const params = useParams();
   const topicId = params.topicId as string;
