@@ -2,11 +2,6 @@
 
 EcoRoute is a sustainable travel planning application that helps users find eco-friendly routes for their journeys.
 
-## GitHub Pages Deployment
-
-This repository is configured to automatically deploy the frontend to GitHub Pages. The live version can be accessed at:
-
-https://yourusername.github.io/ecoroute-app/
 
 ## Features
 
