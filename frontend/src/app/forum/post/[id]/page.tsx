@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { ArrowLeft, ThumbsUp, MessageSquare, Share2, Flag, Send } from "lucide-react";
-import { useParams, useRouter } from "next/navigation";
-import Link from "next/link";
+import { ArrowLeft, Flag, MessageSquare, Send, Share2, ThumbsUp } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
+import { useParams, useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 interface Post {
   id: string;
@@ -126,6 +126,18 @@ const mockComments: Record<string, Comment[]> = {
     }
   ]
 };
+
+// Generate static paths for all possible post IDs
+export async function generateStaticParams() {
+  // Return all the possible post IDs that this page should be pre-rendered for
+  return [
+    { id: "1" },
+    { id: "2" },
+    { id: "101" },
+    { id: "102" },
+    { id: "201" }
+  ];
+}
 
 export default function PostPage() {
   const router = useRouter();
