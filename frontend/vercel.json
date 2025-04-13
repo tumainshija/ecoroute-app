@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "builds": [{
+        "src": "package.json",
+        "use": "@vercel/next"
+    }],
+    "env": {
+        "NEXT_PUBLIC_API_URL": "https://ecoroute-api.onrender.com/api",
+        "NEXT_PUBLIC_USE_PROXY": "false"
+    }
+}

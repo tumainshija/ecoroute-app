@@ -1,0 +1,24 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Leaf Shape -->
+  <path d="M48 16C48 16 48 32 32 48C16 32 16 16 16 16C16 16 32 16 48 16Z" fill="#E8F5E9"/>
+  
+  <!-- Road/Route -->
+  <path d="M24 16C24 16 24 32 32 40C40 32 40 16 40 16" stroke="#2E7D32" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Route Markers -->
+  <circle cx="32" cy="28" r="3" fill="#4CAF50"/>
+  <circle cx="32" cy="40" r="3" fill="#4CAF50"/>
+  
+  <!-- Transportation Symbols -->
+  <!-- Walking Person -->
+  <path d="M24 22C25.1046 22 26 21.1046 26 20C26 18.8954 25.1046 18 24 18C22.8954 18 22 18.8954 22 20C22 21.1046 22.8954 22 24 22Z" fill="#2E7D32"/>
+  <path d="M23 24L25 28L23 32L25 36" stroke="#2E7D32" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Bicycle -->
+  <circle cx="38" cy="23" r="1.5" stroke="#2E7D32" stroke-width="1"/>
+  <path d="M37 23L40 26M40 21L38 23L40 26" stroke="#2E7D32" stroke-width="1" stroke-linecap="round"/>
+  
+  <!-- Small Decorative Leaves -->
+  <path d="M18 42C18 42 18 46 14 50C10 46 10 42 10 42C10 42 14 42 18 42Z" fill="#81C784"/>
+  <path d="M54 42C54 42 54 46 50 50C46 46 46 42 46 42C46 42 50 42 54 42Z" fill="#81C784"/>
+</svg> 

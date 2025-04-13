@@ -1,0 +1,28 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="32" cy="32" r="28" fill="#E8F5E9" />
+  
+  <!-- Cultural Monument - Simplified Temple/Column Structure -->
+  <rect x="24" y="24" width="16" height="24" rx="1" fill="#8D6E63" />
+  
+  <!-- Temple Top -->
+  <path d="M20 24H44L32 16L20 24Z" fill="#A1887F" />
+  
+  <!-- Temple Base -->
+  <rect x="22" y="48" width="20" height="4" rx="1" fill="#A1887F" />
+  
+  <!-- AR Elements - Digital Overlay Suggestion -->
+  <circle cx="48" cy="22" r="6" fill="#4CAF50" fill-opacity="0.7" />
+  <path d="M48 18V26M44 22H52" stroke="white" stroke-width="1.5" stroke-linecap="round" />
+  
+  <!-- Digital Connection Lines -->
+  <path d="M42 22C42 22 46 22 48 22" stroke="#4CAF50" stroke-width="1" stroke-dasharray="2 1" />
+  <path d="M48 26C48 26 48 30 48 32" stroke="#4CAF50" stroke-width="1" stroke-dasharray="2 1" />
+  
+  <!-- Column Details -->
+  <line x1="28" y1="28" x2="28" y2="44" stroke="#5D4037" stroke-width="1" />
+  <line x1="36" y1="28" x2="36" y2="44" stroke="#5D4037" stroke-width="1" />
+  
+  <!-- Small Leaf Element - Environmental Aspect -->
+  <path d="M16 42C16 42 16 46 12 50C8 46 8 42 8 42C8 42 12 42 16 42Z" fill="#81C784" fill-opacity="0.7" />
+</svg> 

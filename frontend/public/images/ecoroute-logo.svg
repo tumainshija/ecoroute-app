@@ -1,0 +1,27 @@
+<svg width="240" height="80" viewBox="0 0 240 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main leaf/map pin combo shape -->
+  <path d="M30 15C30 15 60 15 60 45C60 45 60 75 30 75C30 75 0 75 0 45C0 15 30 15 30 15Z" fill="#4CAF50"/>
+  <path d="M30 15C30 15 45 15 45 37.5C45 37.5 45 60 30 60C30 60 15 60 15 37.5C15 15 30 15 30 15Z" fill="#388E3C"/>
+  
+  <!-- Route path elements -->
+  <path d="M30 20C30 20 40 30 30 50C20 30 30 20 30 20Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Route pin dot -->
+  <circle cx="30" cy="50" r="5" fill="white"/>
+  
+  <!-- Company name: EcoRoute -->
+  <text x="75" y="45" font-family="Arial, sans-serif" font-weight="bold" font-size="28" fill="#2E7D32">Eco</text>
+  <text x="133" y="45" font-family="Arial, sans-serif" font-weight="bold" font-size="28" fill="#4CAF50">Route</text>
+  
+  <!-- Tagline -->
+  <text x="75" y="60" font-family="Arial, sans-serif" font-size="12" fill="#666666">Sustainable Travel Solutions</text>
+  
+  <!-- Decorative Elements -->
+  <!-- Small road/path -->
+  <path d="M190 25C190 25 210 25 220 35" stroke="#81C784" stroke-width="2" stroke-linecap="round"/>
+  <path d="M190 35C190 35 200 35 210 45" stroke="#81C784" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Small recycling/circular icon -->
+  <circle cx="210" cy="30" r="8" stroke="#81C784" stroke-width="2" fill="none"/>
+  <path d="M206 26L210 30L214 26" stroke="#81C784" stroke-width="2" stroke-linecap="round"/>
+</svg> 
