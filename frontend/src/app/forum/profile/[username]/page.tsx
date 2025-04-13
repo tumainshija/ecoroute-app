@@ -4,16 +4,16 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import {
-  Award,
-  Clock,
-  Github,
-  Globe,
-  Linkedin,
-  Mail,
-  MapPin,
-  MessageSquare,
-  Twitter,
-  User
+    Award,
+    Clock,
+    Github,
+    Globe,
+    Linkedin,
+    Mail,
+    MapPin,
+    MessageSquare,
+    Twitter,
+    User
 } from 'lucide-react';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
@@ -42,6 +42,18 @@ interface UserPost {
   likes: number;
   replies: number;
   category: string;
+}
+
+// Generate static paths for all possible username values
+export async function generateStaticParams() {
+  // Return all the possible username values that this page should be pre-rendered for
+  return [
+    { username: 'GreenExplorer' },
+    { username: 'EcoTraveler' },
+    { username: 'SustainableJourney' },
+    { username: 'BikeCommuter' },
+    { username: 'TrainEnthusiast' }
+  ];
 }
 
 export default function UserProfilePage({ params }: { params: { username: string } }) {
