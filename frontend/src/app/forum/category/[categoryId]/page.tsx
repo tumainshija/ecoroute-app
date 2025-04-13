@@ -1,8 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
+import { useEffect, useState } from 'react';
 import { useAuth } from '../../../context/AuthContext';
 
 // Define the types for our data
@@ -26,6 +26,18 @@ interface CategoryData {
   description: string;
   totalTopics: number;
   totalPosts: number;
+}
+
+// Generate static paths for all possible category IDs
+export async function generateStaticParams() {
+  // Return all the possible category IDs that this page should be pre-rendered for
+  return [
+    { categoryId: 'sustainability' },
+    { categoryId: 'travel-experiences' },
+    { categoryId: 'local-cultures' },
+    { categoryId: 'route-planning' },
+    { categoryId: 'ecoroute-feedback' }
+  ];
 }
 
 export default function CategoryPage() {
